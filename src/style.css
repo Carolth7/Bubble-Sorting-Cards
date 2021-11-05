@@ -1,1 +1,66 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/green-felt-and-playing-chips-abstract-background-picture-id672556284?b=1&k=6&m=672556284&s=170667a&w=0&h=7tCHSP5kmaeuFMIi32m5UEfrZxKMgujFiwht_yy-dl8=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  height: 100vh;
+  padding: 3rem;
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.numberDraw {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonSort {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  height: 10rem;
+  width: 6.5rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  margin: 1.5rem;
+  justify-content: space-between;
+}
+
+/* .iconHeart {
+  padding-bottom: 0.5rem;
+} */
+
+.numberElement {
+  align-self: center;
+}
+
+.inverseElement {
+  align-self: flex-right;
+  transform: rotate(-180deg);
+  /* padding-left: 1rem; */
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+#sortBox {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
